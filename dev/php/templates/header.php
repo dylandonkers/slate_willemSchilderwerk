@@ -43,29 +43,22 @@
 
 
   <div class="Bot-Nav">
-	<div class="u-gridContainer">
-		<div class="Nav-toggle u-cf">
-			<a class="Navigation-menuToggle" id="js-navCollapse">
-				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-					<use xlink:href="#icon-menu2"></use>
-				</svg>
-			</a>
-		</div>
-
-		<?php include 'includes/navigation.php'; ?>
-		
-		<div class="Mob-contact-ico">
-			<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0786426453">
-				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-					<use xlink:href="#icon-phone"></use>
-				</svg>
-			</a>
-		
-                <a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:info@willemschilderwerk.nl">
-				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-					<use xlink:href="#icon-envelope"></use>
-				</svg>
-			</a>
-		</div><!-- header-contact -->
-	</div>
+	<header class="header-top">
+        <div class="header-top-in u-gridContainer">
+            <div class="header-top-in-tekst">
+                <h4 class="header-top-in-tekst-logo"><a href="#">Willem schilderwerk</a></h4>
+                <h4 class="header-top-in-tekst-phone">078-6426453</h4>
+                <img class="header-top-in-tekst-img"src="<?php echo get_stylesheet_directory_uri(); ?>/img/4jaargarantie.png">
+            </div>
+            <div class="u-cf">
+                 <a class="Navigation-menuToggle" id="js-navCollapse">
+                    <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+                        <use xlink:href="#icon-menu2"></use>
+                    </svg>
+                </a>
+            </div>
+		  <?php include 'includes/navigation.php'; ?>
+        </div>
+	</header>
+    
   </div>

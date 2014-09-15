@@ -41,7 +41,7 @@
     @if $all and not str-index($find, $replace) {
       $string: wf-str-replace($string, $find, $replace);
     }
-  }
+  } 
   @return $string;
 }
 

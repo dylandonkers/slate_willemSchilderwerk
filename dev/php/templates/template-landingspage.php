@@ -1,10 +1,22 @@
 <?php
 /*
-Template Name: Homepage
+Template Name: landingspage
 */
 ?>
 
 <?php get_header(); ?>
+	<div class="landing-page">
+					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+					<div class="u-gridContainer">
+						<artikel  class="u-gridCol8 landing">
+							<h4><?php the_title(); ?></h4>
+							<?php the_content(); ?>
+						</artikel>
+						<artikel class="u-gridCol4 landing">
+							<button><a>Vraag offerte aan</a></button>
+						</artikel>
+					</div>
+	</div>	
 	<div class="wrapper-Content">
 	<!--<div class="Achtergrond-Slider ">-->
 		<div class="Slider">
@@ -31,7 +43,7 @@ Template Name: Homepage
 		        </div>
 		        <div class="Header-Banner-Achtergrond">
 		        	<div class="u-gridContainer Slider-Text">
-		        		<h4>Hotels, recreatieparken, bedrijfspanden en overheid</h4>
+		        		<h4>Hotels, recreatieparken, bedrijfspanden en overheid</h4> 
 		        		<p>Onderhoud en schilderen</p>
 		        	</div>
 					<img class="Slider-Img"src="<?php echo get_stylesheet_directory_uri(); ?>/img/background-willem.jpg" >
@@ -39,7 +51,6 @@ Template Name: Homepage
 		</div>
 	<!--</div>-->
 		<div class="u-gridContainer">
-		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<article class="Content Content--home" id="post-<?php the_ID(); ?>">
 					<article class="content-article-top u-gridCol4">
 						<h4>Waarvoor willem schilderwerken</h4>
@@ -72,7 +83,9 @@ Template Name: Homepage
 					</article>
 					<article class="content-article-bottom u-gridCol4">
 						<h4>Voor wie wij werken</h4>
-						<?php the_content(); ?>
+						<p>Naast vele honderden klanten in de particuliere sector, kunnen wij bogen op een grote kring tevreden opdrachtgevers in de onroerendgoed sector, verenigingen van eigenaren, hotels, bungalow-en vakantieparken.<br />
+
+Onderhouden en schilderen van grote projecten voor verenigingen van eigenaren, hotels, bungalow-en vakantieparken</p>
 						<button>Bekijk referenties</button>
 					</article>
 			</article>

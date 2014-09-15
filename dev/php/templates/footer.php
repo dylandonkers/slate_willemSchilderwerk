@@ -12,9 +12,21 @@
 	<div class="Socket">
 		<div class="u-gridContainer">
 			<!-- Copyright info -->
+			
+			<h4>MEER INFORMATIE OVER WAT WILLEM SCHILDERWERKEN VOOR U KAN DOEN?</h4>
+			<div class="Socket-content">
+				<button><a title="contact" href="http://willemschilderwerk.lokaalgevonden.nl/contact/">Advies en contact</a></button>
+				<button><a title="contact" href="http://willemschilderwerk.lokaalgevonden.nl/offerte/">Offerte</a></button>
+			</div>
+		</div>
+		<nav class="footer-nav">
+			<div class="u-gridContainer"> 
+				<?php include 'includes/navigation.php'; ?>
 			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
-					<a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a>
+						<a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a>
 			</p>
+			</div>
+		</nav>
 		</div>
 	</div>
 
@@ -31,6 +43,8 @@
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/nav-dropdown.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/prepend-svg.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/google-maps.js"></script>
+   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.js"></script>
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.start.js"></script>
   <script src="http://localhost:35729/livereload.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.0/html-inspector.js"></script>
   <script>HTMLInspector.inspect();</script>

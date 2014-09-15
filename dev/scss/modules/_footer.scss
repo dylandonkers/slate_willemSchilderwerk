@@ -16,4 +16,38 @@
 .Footer-inner .widget {
 
 }
+.Socket{
+	background: #0AC74B;
+	margin-top:1%;
+	h4{
+		color:#fff;
+		width:93%;
+		margin: 0 auto;
+		margin-top: 3%;
+		margin-bottom: 2%;
+	}
+}
 
+.Socket-content{
+	margin: 0 auto;
+	margin-bottom:3%;
+	width:25%;
+	button{
+		border:1px #fff solid;
+		margin-right:5%;
+	}
+}
+.footer-nav{
+	background:#393939;
+	a{
+		color:#8A8989 !important; 
+	}
+	a:hover{
+      color: #fff !important;
+      background-color:#393939 !important;
+    }
+    a.is-active{
+    	background-color:#393939 !important;
+    	color:#fff!important;
+    }
+}

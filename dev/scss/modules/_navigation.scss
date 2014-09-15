@@ -6,8 +6,27 @@
 // *************************************
 
 .Navigation {
-  text-align: center;
+  text-align: left;
+ 
+  a{
+    color:#fff;
+    padding:1% 2%;
+    margin: 0;
+  }
+   a:hover{
+      background-color: #fff;
+      padding:1% 2%;
+      color: #0AC74B;
+      text-decoration: none;
+    }
+  a.is-active{
+     background-color: #fff;
+      padding:1% 2%;
+      color: #0AC74B;
+      text-decoration: none;
+  }
 }
+
 
 // -------------------------------------
 // Module specific variables
@@ -17,16 +36,19 @@
 
 // -------------------------------------
 // Modifiers
-// -------------------------------------
+// ------------ -------------------------
 
 // -------------------------------------
 // States
 // -------------------------------------
 
 .Navigation-link.is-active {
-  text-decoration: underline;
+    color: #393939;
+    background-color: #fff;
 }
-
+.Navigation-link :hover {
+  
+}
 // -------------------------------------
 // Context
 // -------------------------------------
@@ -38,10 +60,12 @@
 // -------------------------------------
 
 // ----- List item ----- //
-
+.Navigation-list{
+  margin:4% 0 0 0;
+}
 .Navigation-listItem {
   display: inline;
-  margin: 0 rem(15px);
+  margin: 0;
   &:first-of-type {
     margin-left: 0;
   }

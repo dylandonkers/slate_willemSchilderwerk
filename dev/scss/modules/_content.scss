@@ -1,3 +1,90 @@
-.Content {
+.wrapper-Content{
+	background-color: #0AC74B;
+	padding:0 0 3% 0;
+}
+.fullsize-wrapper{
+	background-color: #fff;
+}
 
+.Content{
+	padding:5% 0 0 0;
+	article{
+		background-color:#fff;
+		 padding:2% 1% 2% 3%;
+		 box-shadow: 4px 5px 8px #135028;
+	}
+	ul{
+		list-style-image: url("../img/pijls-xs-grijs-2.png");
+		margin-left: 1%;
+	}
+}
+.content-bottom{
+	background-color:#fff;
+	margin-bottom:-1%;
+}
+.content-bottom-wrapper{
+	padding: 0 0 1% 0;
+}
+.content-bottom-grid{
+
+}
+.content-bottom-wrapper-text1{
+	width:20%;
+	margin:0 auto;
+	margin-top:5%;
+	margin-bottom:2%;
+}
+.content-bottom-wrapper-text2{
+	width:20%;
+	margin:0 auto;
+	margin-top:25%;
+	margin-bottom:2%;
+}
+.content-bottom-wrapper-img{
+	width:50%;
+	margin:0 auto;
+	margin-bottom:10%;
+}
+//.Achtergrond-Slider{
+ //background:url("../img/verf01.gif") #fff;	
+// background-size:100%;	
+//}
+.Slider{
+	background:#fff;
+}
+.Slider-Text{
+	position: absolute;
+	top: 25%;
+	left: 19%;
+	color:#000;
+	//padding:3% 0 0 1%;
+}
+
+.Header-Banner-Achtergrond {
+	position: relative;
+}
+.Slider-Img{
+//	top:-10%;
+//	z-index:-1;
+	display: block;
+}
+.header-bottom-in{
+
+}
+.Content--leftsidebar{
+	background: #fff;
+	padding:2%;
+	margin:1% 1% 0 0;
+}
+.Content--rightsidebar{
+	background: #fff;
+	padding:2%;
+	margin:1% 1% 0 0;
+}
+.schilderwerk-img{
+	float:right;
+	margin: 1%;
+}
+.grid-img{
+	padding: 0 0 5% 10%;
 }

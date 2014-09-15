@@ -11,27 +11,6 @@ Template Name: Contactpage
 			<article class="Content Content--leftsidebar u-gridCol12" id="post-<?php the_ID(); ?>">
 				<h4><?php the_title(); ?></h4>
 				<div class="Content-text">
-
-					<div class="u-gridRow">					
-						<div class="adress u-gridCol4">
-							<div class="adress-info">
-								<p>willemschilderwerk</p>
-								<p>Wiardi Beckmanstraat 52</p>
-								<p>3354 VN Papendrecht</p>
-								<p>Email: info@willemschilderwerk.nl</p>
-								<p>Tel: 0786426453</p>
-							</div>
-	
-						</div>					
-						<div class="adress-map u-gridCol8">
-							<div id="map_canvas"></div>
-						</div>
-
-					</div> <!-- /gridRow -->
-
-					<div class="hr-style super-margin">
-						<hr>
-					</div>
 					<div class="u-gridRow">						
 						<p class="contact-page-p">Heeft u nog vragen? Neem dan hieronder contact met ons op. </p>
 						<?php the_content(); ?>

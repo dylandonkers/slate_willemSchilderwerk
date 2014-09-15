@@ -4,15 +4,44 @@
 // -> All buttons
 //
 // *************************************
-
-.Button {
-  display: inline-block;
-  font-weight: bold;
-  padding: rem(10px) rem(5px);
-  &:hover {
+button{
+  background: #0AC74B;
+  border:1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  padding:5%;
+  a{
+    color: #fff;
     text-decoration: none;
   }
 }
+button:hover{
+  background:#fff;
+  color:#0AC74B;
+  border: 1px solid #0AC74B;
+  a:hover{
+    color:#0AC74B;
+    text-decoration: none;
+  }
+   a{
+    color:#0AC74B;
+    text-decoration: none;
+  }
+}
+
+.gform_button{
+  padding-top:2% !important;
+  padding-bottom:2% !important;
+}
+.Button {
+    display: inline-block;
+    font-weight: bold;
+    padding: rem(10px) rem(5px);
+    &:hover {
+      text-decoration: none;
+    }
+}
+
 
 // -------------------------------------
 // Module specific variables
@@ -37,7 +66,7 @@
   color: $c-white;
   fill: $c-white;
   background: $c-blue;
-}
+} 
 
 // -------------------------------------
 // States
