@@ -15,8 +15,8 @@
 			
 			<h4>MEER INFORMATIE OVER WAT WILLEM SCHILDERWERKEN VOOR U KAN DOEN?</h4>
 			<div class="Socket-content">
-				<button><a title="contact" href="http://willemschilderwerk.lokaalgevonden.nl/contact/">Advies en contact</a></button>
-				<button><a title="contact" href="http://willemschilderwerk.lokaalgevonden.nl/offerte/">Offerte</a></button>
+				<a class="button" title="contact" href="http://willemschilderwerk.lokaalgevonden.nl/contact/">Advies en contact</a>
+				<a class="button" title="contact" href="http://willemschilderwerk.lokaalgevonden.nl/offerte/">Offerte</a>
 			</div>
 		</div>
 		<nav class="footer-nav">

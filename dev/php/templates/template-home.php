@@ -54,7 +54,7 @@ Template Name: Homepage
 							<li>in perfecte conditie brengen-en houden van houtwerk binnen en buiten</li>
 							<li>gevelreiniging</li>
 						</ul>
-						<button>Diensten</button>
+						<a class="button"title="contact" href="http://willemschilderwerk.lokaalgevonden.nl/gevelreiniging/">Diensten</a>
 					</article>
 					<article class="content-article-mid u-gridCol4">
 						<h4>Waarom willem schilderwerken</h4>
@@ -68,12 +68,12 @@ Template Name: Homepage
 							<li>uitsluitend werken wij met door oveheid goedgekeurde verfsoorten (deze verfsoorten zijn op waterbasis)</li>
 							<li>wij kiezen altijd voor de meest mileuvriendelijke oplossing!</li>
 							</ul>
-						<button>Offerte aanvragen</button>
+					<a class="button" title="contact" href="http://willemschilderwerk.lokaalgevonden.nl/offerte/">Offerte aanvragen</a>
 					</article>
 					<article class="content-article-bottom u-gridCol4">
 						<h4>Voor wie wij werken</h4>
 						<?php the_content(); ?>
-						<button>Bekijk referenties</button>
+						<a class="button" title="contact" href="http://willemschilderwerk.lokaalgevonden.nl/88-2/">Bekijk referenties</a>
 					</article>
 			</article>
 			

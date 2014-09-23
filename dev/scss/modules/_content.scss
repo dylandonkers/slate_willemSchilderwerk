@@ -18,6 +18,23 @@
 		margin-left: 1%;
 	}
 }
+.Content--app{
+	padding:1% 0 0 0;
+	article{
+		background-color:#fff;
+		 padding:2% 1% 2% 3%;
+		 box-shadow: 4px 5px 8px #135028;
+	}
+	ul{
+		list-style-image: url("../img/pijls-xs-grijs-2.png");
+		margin-left: 1%;
+	}
+}
+.Content--app-Gimg{
+	width:35%;
+	margin-top:2%;
+	display: block;
+}
 .content-bottom{
 	background-color:#fff;
 	margin-bottom:-1%;
@@ -88,3 +105,111 @@
 .grid-img{
 	padding: 0 0 5% 10%;
 }
+
+//---------------------------------------------responsive--------------------------------------------------//
+@media all and (max-width: 768px) {
+ 	.content-bottom-wrapper-text1, .content-bottom-wrapper-text2{
+ 		font-size: 19px !important;
+ 	}
+}
+@media all and (max-width: 667px) {
+    .content-bottom-wrapper-text1,  .content-bottom-wrapper-text2{
+    	width: 24%;
+    }
+  }
+@media all and (max-width: 600px) {
+ 	.Content article{
+ 		margin-bottom: 2%;
+ 	}
+ 	button{
+ 		padding: 3%;
+ 	}
+ 	.grid-img{
+ 		width: 31%;
+ 	}
+ 	.content-bottom-wrapper-text1, .content-bottom-wrapper-text2{
+ 		width: 30%;
+ 	}
+ 	.Slider-Text{
+ 		left: 0;
+ 		h4{
+ 			font-size: 20px;
+ 		}
+ 	}
+ 	#post-14, #post-12, #post-16{
+ 		display: none;
+ 	}
+}
+@media all and (max-width: 568px) {
+	.Slider{
+ 		display: none;
+ 	}
+}
+@media all and (max-width: 480px) {
+.content-bottom-wrapper-text1, .content-bottom-wrapper-text2{
+    width: 34%;
+  }
+}
+.content-bottom-wrapper-img{
+	width:100%;
+}
+.grid-img{
+	width:28%;
+}
+@media all and (max-width: 384px) {
+ 	.grid-img{
+ 		width: 31%;
+ 	}
+ 	.content-bottom-wrapper-img{
+ 		width: 90%;
+ 	}
+ 	.content-bottom-wrapper-text1, .content-bottom-wrapper-text2{
+ 		width: 42%;
+ 	}
+ 	.Slider{
+ 		display: none;
+ 	}
+ 	.grid-img{
+ 		padding: 0 0 4% 0%;
+ 	}
+ 	.Socket h4{
+ 		font-size: 17px;
+ 	}
+ 	.Socket-content{
+ 		width: 62%;
+ 	}
+ 	.Content article{
+ 		padding:2% 1% 2% 5%;
+ 	}
+ 	.schilderwerk-img{
+ 		float: none;
+ 		margin: 2%;
+ 	}
+}
+@media all and (max-width: 320px) {
+	.content-bottom-wrapper-text1, .content-bottom-wrapper-text2{
+		width: 53%;
+	}
+	.Socket-content{
+		width:76%;
+	}
+	.Content article{
+		padding: 2% 2% 2% 6%;
+	}
+}
+@media all and (max-width: 240px) {
+  .Content--home{
+  	h4{
+  		font-size: 15px;
+  	}
+  	.Content article{
+  		padding: 2% 2% 2% 7%;
+  	}
+  }
+  .content-bottom-wrapper-text1, .content-bottom-wrapper-text2{
+  	width: 73%;
+  }
+  
+}
+
+

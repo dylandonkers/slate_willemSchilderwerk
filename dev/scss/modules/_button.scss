@@ -4,29 +4,44 @@
 // -> All buttons
 //
 // *************************************
-button{
+.button{
   background: #0AC74B;
   border:1px solid #fff;
   color: #fff;
   text-decoration: none;
   padding:5%;
-  a{
+  float: right;
+
     color: #fff;
+    text-decoration: none;
+
+}
+.gform_button {
+  .button{
+    background: #0AC74B;
+    border:1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    padding:5%;
+    float: right;
+  }
+  
+}
+.gform_button:hover{
+  .button{
+    background:#fff;
+    color:#0AC74B;
+    border: 1px solid #0AC74B;
     text-decoration: none;
   }
 }
-button:hover{
+
+.button:hover{
   background:#fff;
   color:#0AC74B;
   border: 1px solid #0AC74B;
-  a:hover{
     color:#0AC74B;
     text-decoration: none;
-  }
-   a{
-    color:#0AC74B;
-    text-decoration: none;
-  }
 }
 
 .gform_button{
@@ -36,12 +51,16 @@ button:hover{
 .Button {
     display: inline-block;
     font-weight: bold;
-    padding: rem(10px) rem(5px);
+    padding: rem(10px) rem(5px);  
     &:hover {
       text-decoration: none;
     }
 }
-
+.Socket-content{
+ .button{
+   float: none;
+  }
+}
 
 // -------------------------------------
 // Module specific variables

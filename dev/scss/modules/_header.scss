@@ -31,9 +31,9 @@
   margin-left: 25.5%; 
 }
 .header-top-in-tekst-img{
-  display: inline;
-  float: right;
-  margin:-1% 0 1% 0
+margin: 0 0 -6% 0;
+right: 0;
+float: right;
 }
 .header-bottom{
  background:url("../img/background-willem.jpg");
@@ -104,4 +104,56 @@
   @extend .u-gridRow;
   padding-bottom : ($l-whiteSpace * 4);
   padding-top    : ($l-whiteSpace * 4);
+}
+//---------------------------------------------responsive--------------------------------------------------//
+
+@media all and (max-width: 768px) {
+  .header-top-in-tekst-img{
+    width: 9% ;
+  }
+}
+@media all and (max-width: 667px) {
+    .Navigation a{
+      font-size: 13px;
+    }
+  }
+
+@media all and (max-width: 600px) {
+  .header-top-in-tekst-img{ display: none; }
+  .header-top-in-tekst-phone{ margin-left: 9.5%; }
+}
+
+@media all and (max-width: 480px) {
+  .header-top-in-tekst-logo{
+   font-size: 20px;
+  }
+   .header-top-in-tekst-phone{
+      font-size: 20px;
+      margin-left: 5% ;
+    }
+}
+
+@media all and (max-width: 384px) {
+  .header-top-in-tekst-logo{
+    font-size: 18px;
+  }
+  .header-top-in-tekst-phone{
+    font-size: 18px;
+    margin-left: 5% ;
+  }
+}
+@media all and (max-width: 320px) {
+  .header-top-in-tekst-phone{
+    display: block;
+    margin:0;
+  }
+}
+@media all and (max-width: 240px) {
+  .header-top-in-tekst-logo{
+    font-size: 15px;
+  }
+  .header-top-in-tekst-phone{
+    font-size: 15px;
+    margin:0;
+  }
 }

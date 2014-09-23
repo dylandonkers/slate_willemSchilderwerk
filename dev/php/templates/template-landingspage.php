@@ -13,7 +13,8 @@ Template Name: landingspage
 							<?php the_content(); ?>
 						</artikel>
 						<artikel class="u-gridCol4 landing">
-							<button><a>Vraag offerte aan</a></button>
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/8934618-isolated-platen-and-sky-element-of-design.jpg" class="landing-img"> </img>
+							<a class="button" title="contact" href="http://willemschilderwerk.lijktmeduidelijk.nl/offerte/">Vraag offerte aan</a>
 						</artikel>
 					</div>
 	</div>	
@@ -65,11 +66,11 @@ Template Name: landingspage
 							<li>in perfecte conditie brengen-en houden van houtwerk binnen en buiten</li>
 							<li>gevelreiniging</li>
 						</ul>
-						<button>Diensten</button>
+						<a class="button" title="contact" href="http://willemschilderwerk.lokaalgevonden.nl/schilderwerk/">Diensten</a>
 					</article>
 					<article class="content-article-mid u-gridCol4">
 						<h4>Waarom willem schilderwerken</h4>
-						<ul>
+						<ul> 
 							<li>4 jaar garantie op schilderwerk</li>
 							<li>30 jaar ervaring als vakschilder</li>
 							<li>geen 9-5 mentaliteit</li>
@@ -79,14 +80,14 @@ Template Name: landingspage
 							<li>uitsluitend werken wij met door oveheid goedgekeurde verfsoorten (deze verfsoorten zijn op waterbasis)</li>
 							<li>wij kiezen altijd voor de meest mileuvriendelijke oplossing!</li>
 							</ul>
-						<button>Offerte aanvragen</button>
+						<a class="button" title="contact" href="http://willemschilderwerk.lijktmeduidelijk.nl/offerte/">Offerte aanvragen</a>
 					</article>
 					<article class="content-article-bottom u-gridCol4">
 						<h4>Voor wie wij werken</h4>
 						<p>Naast vele honderden klanten in de particuliere sector, kunnen wij bogen op een grote kring tevreden opdrachtgevers in de onroerendgoed sector, verenigingen van eigenaren, hotels, bungalow-en vakantieparken.<br />
 
 Onderhouden en schilderen van grote projecten voor verenigingen van eigenaren, hotels, bungalow-en vakantieparken</p>
-						<button>Bekijk referenties</button>
+						<a class="button" title="contact" href="http://willemschilderwerk.lijktmeduidelijk.nl/88-2/">Bekijk referenties</a></button>
 					</article>
 			</article>
 			

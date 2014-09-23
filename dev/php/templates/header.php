@@ -48,9 +48,9 @@
             <div class="header-top-in-tekst">
                 <h4 class="header-top-in-tekst-logo"><a href="#">Willem schilderwerk</a></h4>
                 <h4 class="header-top-in-tekst-phone">078-6426453</h4>
-                <img class="header-top-in-tekst-img"src="<?php echo get_stylesheet_directory_uri(); ?>/img/4jaargarantie.png">
+                <img class="header-top-in-tekst-img" src="<?php echo get_stylesheet_directory_uri(); ?>/img/4jaargarantie.png">
             </div>
-            <div class="u-cf">
+            <div class="u-cf icon-place">
                  <a class="Navigation-menuToggle" id="js-navCollapse">
                     <svg class="Icon Icon--inline" viewBox="0 0 128 128">
                         <use xlink:href="#icon-menu2"></use>

@@ -8,13 +8,14 @@ Template Name: App page
 
 	<div>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-		<div class="Content Content--app" id="post-<?php the_ID(); ?>">
+		<div class="Content--app" id="post-<?php the_ID(); ?>">
 			<div class="u-gridContainer">
-				<h2><?php the_title(); ?></h2>
-				<aside class="u-gridCol4">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/screenshot.png" class="App-iphone" />
-				</aside>
+				<article class="u-gridCol4 .Content--leftsidebar">
+					
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/iphone.png" class="App-iphone" />
+				</article>
 				<article class="Content-article u-gridCol8" id="post-<?php the_ID(); ?>">
+					<h4><?php the_title(); ?></h4>
 					<?php // the_content(); ?>
 					Bekijk nu ook de informatie van ons bedrijf vanuit de app! De app is beschikbaar in Google Play voor Android apparaten en als webapp voor iOS van Apple telefoons.
 
@@ -22,7 +23,7 @@ Template Name: App page
 
 					<a href="#">Download de app hier</a>
 
-
+					<a href="#"><img class="Content--app-Gimg" src="<?php echo get_stylesheet_directory_uri(); ?>/img/googleplay.jpg" /></a>
 
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/qr_code.png" />
 
