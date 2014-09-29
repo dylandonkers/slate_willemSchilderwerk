@@ -25,7 +25,7 @@ Template Name: App page
 
 					<a href="#"><img class="Content--app-Gimg" src="<?php echo get_stylesheet_directory_uri(); ?>/img/googleplay.jpg" /></a>
 
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/qr_code.png" />
+					<img class="Content--app-Gimg" src="<?php echo get_stylesheet_directory_uri(); ?>/img/willem_qr_code.jpg" />
 
 					<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 				</article>

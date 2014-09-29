@@ -10,7 +10,7 @@ function initialize() {
     mapTypeId: google.maps.MapTypeId.ROADMAP
   }
   map = new google.maps.Map(mapCanvas, mapOptions);
-  codeAddress('Wiardi Beckmanstraat 52 3354 VN Papendrecht');
+  codeAddress('Kooijstraat 34 3295 BG  \'s-Gravendeel');
 }
 
 function codeAddress(address) {

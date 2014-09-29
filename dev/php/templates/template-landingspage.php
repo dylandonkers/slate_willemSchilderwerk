@@ -5,19 +5,6 @@ Template Name: landingspage
 ?>
 
 <?php get_header(); ?>
-	<div class="landing-page">
-					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-					<div class="u-gridContainer">
-						<artikel  class="u-gridCol8 landing">
-							<h4><?php the_title(); ?></h4>
-							<?php the_content(); ?>
-						</artikel>
-						<artikel class="u-gridCol4 landing">
-							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/8934618-isolated-platen-and-sky-element-of-design.jpg" class="landing-img"> </img>
-							<a class="button" title="contact" href="http://willemschilderwerk.lijktmeduidelijk.nl/offerte/">Vraag offerte aan</a>
-						</artikel>
-					</div>
-	</div>	
 	<div class="wrapper-Content">
 	<!--<div class="Achtergrond-Slider ">-->
 		<div class="Slider">
@@ -50,6 +37,19 @@ Template Name: landingspage
 					<img class="Slider-Img"src="<?php echo get_stylesheet_directory_uri(); ?>/img/background-willem.jpg" >
 		        </div>
 		</div>
+		<div class="landing-page">
+					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+					<div class="u-gridContainer">
+						<artikel  class="u-gridCol8 landing">
+							<h4><?php the_title(); ?></h4>
+							<?php the_content(); ?>
+						</artikel>
+						<artikel class="u-gridCol4 landing">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/8934618-isolated-platen-and-sky-element-of-design.jpg" class="landing-img"> </img>
+							<a class="button" title="contact" href="http://willemschilderwerk.lijktmeduidelijk.nl/offerte/">Vraag offerte aan</a>
+						</artikel>
+					</div>
+		</div>	
 	<!--</div>-->
 		<div class="u-gridContainer">
 			<article class="Content Content--home" id="post-<?php the_ID(); ?>">

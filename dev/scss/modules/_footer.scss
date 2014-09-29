@@ -1,4 +1,7 @@
 .Footer {
+	h6{
+		margin:2% 0 0 0;
+	}
 }
 
 // RESPONSIVE FOOTER
@@ -14,7 +17,10 @@
 
 //style the widgets
 .Footer-inner .widget {
-
+	@include span-columns(4);
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
 }
 .Socket{
 	background: #0AC74B;

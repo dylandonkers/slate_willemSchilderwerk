@@ -16,8 +16,8 @@ Template Name: Contactpage
 						<div class="adress u-gridCol4">
 							<div class="adress-info">
 								<p>willemschilderwerk</p>
-								<p>Wiardi Beckmanstraat 52</p>
-								<p>3354 VN Papendrecht</p>
+								<p>Kooijstraat 34</p>
+								<p>3295 BG  's-Gravendeel</p>
 								<p>Email: info@willemschilderwerk.nl</p>
 								<p>Tel: 0786426453</p>
 							</div>
