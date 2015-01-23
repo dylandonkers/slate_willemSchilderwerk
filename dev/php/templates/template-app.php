@@ -23,7 +23,7 @@ Template Name: App page
 
 					<a href="#">Download de app hier</a>
 
-					<a href="#"><img class="Content--app-Gimg" src="<?php echo get_stylesheet_directory_uri(); ?>/img/googleplay.jpg" /></a>
+					<a href="https://play.google.com/store/apps/details?id=com.wWillemSchilderwerk"><img class="Content--app-Gimg" src="<?php echo get_stylesheet_directory_uri(); ?>/img/googleplay.jpg" /></a>
 
 					<img class="Content--app-Gimg" src="<?php echo get_stylesheet_directory_uri(); ?>/img/willem_qr_code.jpg" />
 
